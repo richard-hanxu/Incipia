@@ -12,7 +12,6 @@ using namespace std;
 class Incipia{
 public:
     void _main(int argc, char* argv[]);
-    static void error(int line, string message);
     static void error(Token token, string message);
 private:
     static void runFile(string path);
